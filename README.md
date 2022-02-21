@@ -1,22 +1,24 @@
-# blender-colab
-
+# Blender-Colab
 <a href="https://colab.research.google.com/github/1kaiser/blender-colab/blob/master/blender_render.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-This is a Python script that allows you to render Blender 2.9+ scene using Google Colaboratory.
-You can upload the blender files using direct upload, Google Drive or URL. Rendered frames can be downloaded directly or through Google Drive.
+### 🥳🥳👏 Thanks To Google Colaboratory Team for makingg this possible 🥳🥳🥳 ! [Colaboratory Release Notes](https://colab.research.google.com/notebooks/relnotes.ipynb)
+
+
+
+This allows you to 😎Render Blender 3.0.1 with 2.9.--- 🙂 supported scene using ☁️Google Colaboratory runtime selected as GPU.
+You have to upload the blender file to Google Drive to get the **file_id**. Rendered frames are transferred directly to Google Drive.
 This script provides basic functionality so you may modify the script to your liking to suit your needs.
+
+### Approach 
+![abstract](https://user-images.githubusercontent.com/26379748/154967374-47a122f3-43e1-4bd8-92ef-51b130253567.png)
 
 ## Usage
 ### Upload type
-* `direct`: Upload your blender file in the next cell.
-* `google_drive`: The blender file will be downloaded directly from Google Drive. You need to specify the path to the blender/zip file at `drive_path`.
-* `url`: Direct link to the blender file in `url_blend`.
-* `gdrive_relative`: The Google Drive folder specified at drive_path will be copied directly (as if it's a zipped file).
+* `upload & rename` blender file ( particles.blend ) to google drive
+* `blend_file_id` : Google drive File url `https://drive.google.com/file/d/14rU-w4UwEkRoslf6zGqFceu5ade7AU_O/view?usp=sharing` use **14rU-w4UwEkRoslf6zGqFceu5ade7AU_O** as ***file_id***
 
 ### Download type
-* `direct`: Output files will be automatically downloaded in your browser. (Probably does not work with multiple files?)
-* `google_drive`: The output files will be pasted into the specified `drive_output_path` once rendering is finished.
-* `gdrive_relative`: The output frames will be automatically rendered into the specified `drive_output_path`.
+* `output_directory_id` : Google drive folder url `https://drive.google.com/drive/u/0/folders/1ph2v7i3Qm8U6KVPh1DEJ1UCXRKVMYEY0` use **1ph2v7i3Qm8U6KVPh1DEJ1UCXRKVMYEY0** as ***directory_id***
 
 ### A few notes
 1. You must own a Google account.
@@ -32,6 +34,15 @@ Check which section of the code failed and identify the error (such as misspelle
 
 Common errors:
 * `MessageError: TypeError: Failed to fetch` while downloading: The tab must be opened so that the frames can be downloaded.
+
+## Credits
+
+The "blender-colab" code skeleton (./blender-colab folder) was adapted from the [ynshung/blender-colab][1] repository.\
+[1]: https://github.com/ynshung/blender-colab \
+    <a href="https://colab.research.google.com/github/ynshung/blender-colab/blob/master/blender_render.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>  \
+The "Gshell" library was used from [wkentaro/gshell][2] repository.\
+[2]: https://github.com/wkentaro/gshell \ 
+    gshell = Google Drive + Shell >>> Navigate in Google Drive as you do on shell (gshell = Google Drive + Shell).
 
 ## Disclaimer
 Google Colab is specialized for data centres, neural network etc, not rendering 3D scenes. Because the computing power provided are free, the usage limits, idle timeouts and speed of the rendering may varies. [ColabPro](https://colab.research.google.com/signup) is available for those who wanted to have more powerful GPU and longer session for rendering. See the [FAQ](https://research.google.com/colaboratory/faq.html) for more info.
