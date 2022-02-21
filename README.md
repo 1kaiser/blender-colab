@@ -1,7 +1,7 @@
 # Blender-Colab☁️
 # ✅<a href="https://colab.research.google.com/github/1kaiser/blender-colab/blob/master/BlenderColab.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 
-### 🥳🥳👏 Thanks To Google Colaboratory Team for makingg this possible 🥳🥳🥳 ! [Colaboratory Release Notes](https://colab.research.google.com/notebooks/relnotes.ipynb)
+### 🥳🥳👏 Thanks To Google Colaboratory Team for making this possible 🥳🥳🥳 ! [Colaboratory Release Notes](https://colab.research.google.com/notebooks/relnotes.ipynb)
 
 
 
