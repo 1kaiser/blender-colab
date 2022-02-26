@@ -37,12 +37,21 @@ Common errors:
 
 ## Credits
 
-The "blender-colab" code skeleton (./blender-colab folder) was adapted from the [ynshung/blender-colab][1] repository.\
+### The "blender-colab" code skeleton (./blender-colab folder) was adapted from the [ynshung/blender-colab][1] repository.
 [1]: https://github.com/ynshung/blender-colab \
-    <a href="https://colab.research.google.com/github/ynshung/blender-colab/blob/master/blender_render.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>  \
-The "Gshell" library was used from [wkentaro/gshell][2] repository.\
-[2]: https://github.com/wkentaro/gshell \ 
+    <a href="https://colab.research.google.com/github/ynshung/blender-colab/blob/master/blender_render.ipynb" target="_parent"><img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>  
+### The "Gshell" library was used from [wkentaro/gshell][2] repository.
+[2]: https://github.com/wkentaro/gshell 
     gshell = Google Drive + Shell >>> Navigate in Google Drive as you do on shell (gshell = Google Drive + Shell).
+    
+    
+### The "google-drive-to-sqlite" library was used from [simonw/google-drive-to-sqlite][3] repository.
+[3]: https://github.com/simonw/google-drive-to-sqlite 
+    Create a SQLite database containing metadata from Google Drive.
+    If you use Google Drive, and especially if you have shared drives with other people there's a good chance you have hundreds or even thousands of files that you may not be fully aware of.This tool can download metadata about those files - their names, sizes, folders, content types, permissions, creation dates and more - and store them in a SQLite database.
+    This lets you use SQL to analyze your Google Drive contents, using Datasette or the SQLite command-line tool or any other SQLite database browsing software.
+
+    
 
 ## Disclaimer
 Google Colab is specialized for data centres, neural network etc, not rendering 3D scenes. Because the computing power provided are free, the usage limits, idle timeouts and speed of the rendering may varies. [ColabPro](https://colab.research.google.com/signup) is available for those who wanted to have more powerful GPU and longer session for rendering. See the [FAQ](https://research.google.com/colaboratory/faq.html) for more info.
