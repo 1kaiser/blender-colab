@@ -51,7 +51,8 @@ Common errors:
     If you use Google Drive, and especially if you have shared drives with other people there's a good chance you have hundreds or even thousands of files that you may not be fully aware of.This tool can download metadata about those files - their names, sizes, folders, content types, permissions, creation dates and more - and store them in a SQLite database.
     This lets you use SQL to analyze your Google Drive contents, using Datasette or the SQLite command-line tool or any other SQLite database browsing software.
 
-    
+![Screenshot 2022-02-27 003233](https://user-images.githubusercontent.com/26379748/155858106-f984d774-cc2e-4da3-a2a3-5d41ec1b6e7c.png)
+
 
 ## Disclaimer
 Google Colab is specialized for data centres, neural network etc, not rendering 3D scenes. Because the computing power provided are free, the usage limits, idle timeouts and speed of the rendering may varies. [ColabPro](https://colab.research.google.com/signup) is available for those who wanted to have more powerful GPU and longer session for rendering. See the [FAQ](https://research.google.com/colaboratory/faq.html) for more info.
